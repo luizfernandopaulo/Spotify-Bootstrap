@@ -1,0 +1,116 @@
+
+body{
+    background: url(../imagens/capa.png),
+    url(../imagens/ruido.png),
+    linear-gradient(50deg,#5c142c,#0f9c3e);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*barra de navegação*/
+nav.navbar-transparent{
+    padding: 15px 0;
+    background: rgba(0,0,0,0.6);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler{
+    color: rgba(255,255,255,.1);
+    border-color: rgba(255,255,255,0.5);
+}
+
+.divisor{
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+.capa{
+    text-align: center;
+}
+
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius:500px;
+    -moz-border-radius:500px;
+    transition: background 0.4s , color 0.4s;
+    padding: 10px 20px;
+}
+.btn-roxo{
+    background: #7c25f8;
+}
+
+.btn-roxo:hover{
+    background: #6207e3;
+    color: white
+}
+
+.btn-branco{
+   border: 2px solid white;
+}
+
+.btn-branco:hover{
+    background-color: white;
+    color: black;
+}
+
+/*sobre*/
+
+
+#sobre p{
+    color: #fff;
+}
+#sobre li {
+    margin-left: 30px;
+    color: white;
+}
+
+#sobre{
+    background: rgb(59, 58, 58);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#sobre h1 , h5,h4{
+    padding-top: 20px;
+    color: #d9d5dd;
+}
+
+/*Rodapé*/
+
+footer img{
+    padding: 50px 0 20px 0;
+}
+footer{
+    background: #000;
+    height: 400px;
+    padding: 50px 0 20px 0;
+    position: relative;
+}
+footer h4{
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a{
+    color: white;
+    font-size: 0.8em;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    float: right;
+    margin: 0 5px;
+}
